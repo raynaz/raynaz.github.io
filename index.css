@@ -1025,7 +1025,16 @@ footer p {
     }
 
 footer p{
-    font-size: 12.5px;
+    font-size: 13px;
 }
 
+}
+
+@media screen and (max-width: 480px) {
+    .secondsec2{
+        margin-top: 10%;
+    }
+    .secondsec1{
+        margin-top: 10%;
+    }
 }
