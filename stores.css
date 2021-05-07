@@ -174,10 +174,15 @@ footer {
     grid-row: 3/4;
     background-color: black;
     border-top: solid #e6cbec 1vh;
+    position: relative;
 }
 
 footer p {
     color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
 .title {
@@ -281,6 +286,7 @@ padding:5%;
 .backbg p {
     font-size: 1.3vw;
     font-weight: 300;
+    margin: 1vw 0;
 }
 .storepic1 {
     height: 70%;
@@ -378,6 +384,7 @@ padding:5%;
 .backbg p {
     font-size: 1.4vw;
     font-weight: 300;
+    margin: 1.5vw 0;
 }
 
 }
@@ -426,6 +433,7 @@ padding:5%;
 }
 
 .backbg p {
+    margin: 2.3vw 0;
     font-size: 2.3vw;
     font-weight: 300;
 }

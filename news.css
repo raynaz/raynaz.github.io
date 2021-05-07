@@ -121,6 +121,7 @@ footer {
     grid-row: 3/4;
     background-color: black;
     border-top: solid #e6cbec 1vh;
+    position: relative;
 }
 
 /*title*/
@@ -313,6 +314,10 @@ footer {
 
 footer p {
     color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1024px) {
