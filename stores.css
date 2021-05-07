@@ -460,5 +460,9 @@ footer p{
     .flip {
         margin: 5% 3% 13% 3%;
     }
-
+    .contain {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vw 300vw 6vh;
+    }
 }

@@ -1031,10 +1031,9 @@ footer p{
 }
 
 @media screen and (max-width: 480px) {
-    .secondsec2{
-        margin-top: 10%;
-    }
-    .secondsec1{
-        margin-top: 10%;
+    .contain {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto 238vw 8vw 85vw 80vw 70vw 6vh;
     }
 }
