@@ -1034,6 +1034,14 @@ footer p{
     .contain {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr auto 238vw 8vw 85vw 80vw 70vw 6vh;
+        grid-template-rows: 1fr auto 238vw 8vw 80vw 70vw 70vw 6vh;
+    }
+
+    .c {
+       
+        height: 2vh;
+        width: 2vh;
+        margin-right: 2.5vw;
+        
     }
 }
