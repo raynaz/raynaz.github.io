@@ -484,4 +484,8 @@ footer p {
         font-size: 6.5vw;
         margin-right: 5vw;
     }
+
+footer p{
+    font-size: 12.5px;
+}
 }
