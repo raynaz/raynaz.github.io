@@ -465,4 +465,8 @@ footer p{
         grid-template-columns: 1fr;
         grid-template-rows: 30vw 300vw 6vh;
     }
+
+    .contact a {  
+        font-size: 5vw;
+    }
 }

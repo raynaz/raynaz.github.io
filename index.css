@@ -557,6 +557,7 @@ textarea {
     margin-top: 1vh;
     text-align: center;
     border: 3px solid #e6cbec;
+    margin-bottom: 0.5vw;
 }
 
 textarea:hover {
@@ -720,6 +721,10 @@ footer p {
 
     .drink {
         line-height: 2vw;
+    }
+    textarea {
+        height: 14vw;
+        margin-bottom: 0.5vw;
     }
 }
 
@@ -932,7 +937,8 @@ footer p {
     }
 
     textarea {
-        height: 19vw;
+        height: 18.5vw;
+        margin-bottom: 1vw;
     }
 
 
@@ -1042,6 +1048,20 @@ footer p{
         height: 2vh;
         width: 2vh;
         margin-right: 2.5vw;
-        
     }
+    .contact a {  
+        font-size: 5vw;
+    }
+
+input{
+    font-size: 12px;
+}
+.form button{
+    font-size: 12px;
+}
+textarea{
+    font-size: 12px;
+    height:20vw;
+    margin-bottom: 1.5vw;
+}
 }

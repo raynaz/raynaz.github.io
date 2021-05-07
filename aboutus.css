@@ -562,3 +562,9 @@ footer p{
     font-size: 13px;
 }
 }
+
+@media screen and (max-width: 480px) {
+    .contact a {  
+        font-size: 5vw;
+    }
+}

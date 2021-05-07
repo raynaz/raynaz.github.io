@@ -677,3 +677,13 @@ footer p{
 }
 
 }
+
+@media screen and (max-width: 480px) {
+    .contact a {  
+        font-size: 5vw;
+    }
+    .button2 {
+       width:52.8%;
+       border: 0.6vw solid #e6cbec;
+  }
+}
